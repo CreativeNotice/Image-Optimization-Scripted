@@ -1,7 +1,18 @@
 {
   "name": "black-friday-2016",
-  "version": "1.0.0",
   "description": "image optimization",
+  "version": "1.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/CreativeNotice/Image-Optimization-Scripted",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeNotice/Image-Optimization-Scripted.git"
+  },
+  "author": {
+    "name": "Ryan Mueller",
+    "email": "rmueller2008@gmail.com",
+    "url": "http://www.creativenotice.com/"
+  },
   "main": "Gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -12,6 +23,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ryan",
-  "license": "ISC"
+    "engines": {
+    "node": ">= 6.9"
+  }
 }
