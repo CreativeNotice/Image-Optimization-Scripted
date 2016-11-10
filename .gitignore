@@ -1,0 +1,10 @@
+node_modules
+dist
+*.png
+*.jpeg
+*.jpg
+*.gif
+*.png
+*.tiff
+*.bpm
+*.webp
