@@ -1,7 +1,7 @@
 {
-  "name": "black-friday-2016",
+  "name": "Image-Optimization",
   "description": "image optimization",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "homepage": "https://github.com/CreativeNotice/Image-Optimization-Scripted",
   "repository": {
@@ -23,7 +23,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "engines": {
-    "node": ">= 6.9"
+  "engines": {
+    "node": ">= 8.9"
   }
 }

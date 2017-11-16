@@ -3,7 +3,7 @@ const imagemin = require( 'gulp-imagemin' );
 const webp     = require( 'gulp-webp' );
 
 gulp.task( 'imagemin', () =>
-    gulp.src( 'originals/*.{jpg,jpeg,png,gif,svg}' )
+    gulp.src( 'src/*.{jpg,jpeg,png,gif,svg}' )
         .pipe( imagemin() )
         .pipe( gulp.dest( 'dist' ) )
 );
